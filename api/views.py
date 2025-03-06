@@ -1,4 +1,4 @@
-from flask import render_template
+from flask import Blueprint, render_template
 
 views_blueprint = Blueprint('views_str', __name__)
 
